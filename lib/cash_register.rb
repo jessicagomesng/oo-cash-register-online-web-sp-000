@@ -1,2 +1,5 @@
 class CashRegister
-end 
+
+  def initialize(total)
+    @total = total 
+end
