@@ -6,13 +6,13 @@ class CashRegister
     @total = 0
     @discount = discount
     @items = []
-    @item_prices = []
+    @last_transaction_price = 0
   end
 
   def add_item(title, price, quantity = 1)
     @total = @total + (price * quantity)
     quantity.times { self.items << title }
-    quantity.times { self.item_prices << price }
+    last_transaction { self.item_prices << price }
   end
 
   def apply_discount
