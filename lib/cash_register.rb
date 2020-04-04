@@ -29,7 +29,6 @@ class CashRegister
     @total
   end
 
-
   def items
     @items
   end
