@@ -23,6 +23,8 @@ class CashRegister
   end
 
   def void_last_transaction
+    #The last item = @items[-1]
+    
   end
 
 end
