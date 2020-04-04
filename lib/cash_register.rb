@@ -30,7 +30,8 @@ class CashRegister
 
     if @items.length == 0
       @total = 0.0
-    end 
+    end
+
   end
 
 end
