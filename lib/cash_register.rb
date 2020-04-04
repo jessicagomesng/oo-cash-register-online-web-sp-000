@@ -1,6 +1,6 @@
 class CashRegister
 
-  attr_accessor :total, :items, :discount
+  attr_accessor  :items, :discount
   @items = []
 
   def initialize(discount = 0)
@@ -16,9 +16,16 @@ class CashRegister
     if @discount == 0
       puts "There is no discount to apply."
     else
-      @total*@discount 
+      @total*@discount
     end
   end
+
+  def total=(total)
+    @total = total
+  end
+
+  def total
+
 
   def items
     @items
