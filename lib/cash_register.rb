@@ -16,7 +16,7 @@ class CashRegister
     if @discount == 0
       puts "There is no discount to apply."
     else
-      @total
+      @total * @discount 
     end
   end
 
