@@ -21,14 +21,6 @@ class CashRegister
     end
   end
 
-  def total=(total)
-    @total = total
-  end
-
-  def total
-    @total
-  end
-
   def items
     @items
   end
