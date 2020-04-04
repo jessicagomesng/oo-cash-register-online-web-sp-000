@@ -1,6 +1,6 @@
 class CashRegister
 
-  attr_accessor :discount, :total, :items 
+  attr_accessor :discount, :total, :items
 
   def initialize(discount = 0)
     @total = 0
@@ -19,10 +19,6 @@ class CashRegister
       @total = @total * (100-@discount) / 100
       "After the discount, the total comes to $#{@total}."
     end
-  end
-
-  def items
-    @items
   end
 
   def void_last_transaction
