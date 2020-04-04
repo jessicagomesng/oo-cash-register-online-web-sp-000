@@ -6,7 +6,8 @@ class CashRegister
     @total = 0
   end
 
-  def add_item(title, price) 
+  def add_item(title, price)
+
   end
 
   def discount
