@@ -10,7 +10,7 @@ class CashRegister
   end
 
   def discount
-    @total 
+    @total
   end
 
 end
