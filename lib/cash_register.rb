@@ -29,9 +29,6 @@ class CashRegister
     @total = @total - @item_prices[-1]
     @items = @items.pop
 
-    if @items.length == 0
-      @total = 0.0
-    end
 
   end
 
